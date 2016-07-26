@@ -1,0 +1,30 @@
+/*Estilos Css del Menu*/
+/*Clase que le quita el selector a la lista*/
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.no-lista li{
+	list-style-type: none;  /*le quita las viñetas*/
+}
+/*Fondo del menu*/
+.se-morado{
+	background-color: #4F22F2;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+/*sentencia para centrar contenido*/ 
+.inline-block{
+	float:none;   /*para centrar el contenido*/
+	display: inline-block;  /*para que nav reconozca el contenido adentro*/
+	margin-right: -4px; /*quitar el margen derecho que por default agrega inline block*/ 
+}
+/*Quitar decoracion por default de los links*/
+.top a{
+	text-decoration: none;
+}
+/*Color del texto del menu*/
+.blanco{
+	color: #FFFFFF;
+}
