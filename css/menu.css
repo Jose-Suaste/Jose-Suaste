@@ -20,6 +20,7 @@
 	display: inline-block;  /*para que nav reconozca el contenido adentro*/
 	margin-right: -4px; /*quitar el margen derecho que por default agrega inline block*/ 
 }
+
 /*Quitar decoracion por default de los links*/
 .top a{
 	text-decoration: none;

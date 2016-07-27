@@ -7,10 +7,13 @@
 	margin: 0px;
 	padding: 0px;   
 }
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
 img{
 	max-width:100%;
 }	
-
 /*Clases Globales de la imagen del index*/
 .quitar-float{
 	float: none;
@@ -22,18 +25,47 @@ img{
 .retraso-1{
   -webkit-animation-delay: 2s;
   -moz-animation-delay: 2s;
-  animation-delay: 2s;
+   animation-delay: 2s;
 }
-/*Estilos Css los links*/
-.espacio-derecha{
-	margin-right: 1em;
+/*Estilos del titulo*/
+ .lifestyle{
+	font-family: 'Bungee Outline', cursive;
+	color: #4F22F2;
+	font-size: 5em;
+}
+/*Estilos de los links*/
+nav a:not(:first-child):before{  /* ESta linea es para poner el separador entre links*/
+	content: '|';  /*linea separadora de links*/
+	padding: 0px 2em; /*Espacio entre links*/
 }
 
+nav a{
+	font-size: 20px;
+	color: #4F22F2;
+    font-family: 'Fredoka One', cursive;
+}
+nav a:hover{
+	color: #FF0055;
+}
 
+/************Tipografias***********/
+/*********Titulos y Parrafos*******/
+/* h1, h2 , h3, h4 , h5 color de los titulos grandes y menu quien soy*/
 
+h1{
+	color: #4F22F2;
+	font-size: 5em;
+	font-family: 'Bungee Outline', cursive;
 
-
-
+}
+h2, h3, h4, h5, h6 {
+	font-size: 20px;
+	font-family: 'Fredoka One', cursive;
+	color: #4AD1B5;
+}
+p{
+	line-height: 2em;
+}
 
 
 
