@@ -1,2 +1,2 @@
-# Jose-Suaste
-Jose's Portafolio
+![Jose's portafolio](http://imgur.com/a/b2Qut.jpg)
+
