@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.eot?gbhjtv');
-  src:  url('icomoon.eot?gbhjtv#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?gbhjtv') format('truetype'),
-    url('icomoon.woff?gbhjtv') format('woff'),
-    url('icomoon.svg?gbhjtv#icomoon') format('svg');
+  src:  url('icomoon.eot?gulnn6');
+  src:  url('icomoon.eot?gulnn6#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?gulnn6') format('truetype'),
+    url('icomoon.woff?gulnn6') format('woff'),
+    url('icomoon.svg?gulnn6#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,6 +27,9 @@
 .icon-heart2:before {
   content: "\e900";
 }
+.icon-circle-up:before {
+  content: "\ea41";
+}
 .icon-instagram:before {
   content: "\ea92";
 }
@@ -39,7 +42,7 @@
 .icon-github:before {
   content: "\eab0";
 }
-.icon-heart3:before {
-  content: "\e901";
+.icon-stackoverflow:before {
+  content: "\ead0";
 }
 
