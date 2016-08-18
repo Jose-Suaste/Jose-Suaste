@@ -1,7 +1,7 @@
+/*=================Estilos CSS===============*/
 @import url(habilidades.css);
 @import url(menu.css);
 @import url(piedepagina.css);
-
 /*estructura del cuerpo* estilos globales (Global-styles) y ancho de imagenes*/
 *{
 	margin: 0px;
@@ -9,7 +9,6 @@
 }
 body{
 	font-family: 'Raleway', sans-serif;
-
 }
 img{
 	max-width:100%;
@@ -29,16 +28,19 @@ img{
 }
 /*Estilos del titulo*/
  .lifestyle{
-	font-family: 'Bungee Outline', cursive;
+	font-family: 'Bungee Outline', helvetica;
 	color: #4F22F2;
 	font-size: 5em;
 }
-/*Estilos de los links*/
-nav a:not(:first-child):before{  /* ESta linea es para poner el separador entre links*/
-	content: '|';  /*linea separadora de links*/
-	padding: 0px 2em; /*Espacio entre links*/
-}
+.espacio-derecha{
+	margin-right: 1em;
 
+}
+/*Estilos de los links
+nav a:not(:first-child):before{  /*ESta linea es para poner el separador entre links
+	content: '|'; linea separadora de links
+	padding: 0px 2em; Espacio entre links
+	*/
 nav a{
 	font-size: 20px;
 	color: #4F22F2;
@@ -47,14 +49,12 @@ nav a{
 nav a:hover{
 	color: #FF0055;
 }
-
 /************Tipografias***********/
 /*********Titulos y Parrafos*******/
 /* h1, h2 , h3, h4 , h5 color de los titulos grandes y menu quien soy*/
-
-h1{
+.lifestyle{
 	color: #4F22F2;
-	font-size: 4em;
+	font-size: 6em;
 	font-family: 'Bungee Outline', cursive;
 
 }
