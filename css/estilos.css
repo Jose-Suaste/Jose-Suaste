@@ -4,8 +4,6 @@
 	margin: 0px;
 	padding: 0px;   
 }
-body{
-}
 img{
 	max-width:100%;
 }	
@@ -31,18 +29,16 @@ img{
 .espacio-derecha{
 	margin-right: 1em;
 }
-/*Estilos de los links
-nav a:not(:first-child):before{  /*ESta linea es para poner el separador entre links
-	content: '|'; linea separadora de links
-	padding: 0px 2em; Espacio entre links
-	*/
+/*Estilos de los links de navegacion home*/
 nav a{
-	font-size: 20px;
+	font-size: 18px;
 	color: #4F22F2;
 }
 nav a:hover{
 	color: #FF0055;
+	text-decoration: none;
 }
+/*Posicionamiento y estilos de las cajas de Coder y Designer*/
 section{
 margin: 0px;
 padding: 0px;
@@ -141,13 +137,14 @@ text-align: center;
 /************Tipografias***********/
 /*********Titulos y Parrafos*******/
 /* h1, h2 , h3, h4 , h5 color de los titulos grandes y menu quien soy*/
-.lifestyle{
-	color: #4F22F2;
-	font-size: 6em;
-}
-h2, h3, h4, h5, h6 {
-	font-size: 20px;
-	color: #FF0055;
+h1,h2, h3, h4 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-size: 18px;
+font-weight: 300;
+color: #FF0055;
 }
 p{
-	line-height: 2em; /*Linea para el interlineado de de los parrafos*/
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-size: 13px;
+line-height: 2em; /*Linea para el interlineado de de los parrafos*/
+}
