@@ -148,3 +148,9 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 font-size: 13px;
 line-height: 2em; /*Linea para el interlineado de de los parrafos*/
 }
+/***************Link Github**********/
+a:hover {
+		color: rgb(85, 26, 139);
+		text-decoration: none;
+		-webkit-tap-highlight-color: transparent;
+	}
