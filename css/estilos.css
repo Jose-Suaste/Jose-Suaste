@@ -2,11 +2,11 @@
 /*estructura del cuerpo* estilos globales (Global-styles) y ancho de imagenes*/
 *{
 	margin: 0px;
-	padding: 0px;   
+	padding: 0px;
 }
 img{
 	max-width:100%;
-}	
+}
 /*Clases Globales de la imagen del index*/
 .quitar-float{
 	float: none;
@@ -138,7 +138,7 @@ text-align: center;
 /*********Titulos y Parrafos*******/
 /* h1, h2 , h3, h4 , h5 color de los titulos grandes y menu quien soy*/
 h1,h2, h3, h4 {
-font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 font-size: 18px;
 font-weight: 300;
 color: #FF0055;
