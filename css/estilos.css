@@ -4,6 +4,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+body{
+	background-image: url(../img/bg.png);
+}
 img{
 	max-width:100%;
 }
@@ -148,9 +151,13 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 font-size: 13px;
 line-height: 2em; /*Linea para el interlineado de de los parrafos*/
 }
+.frase{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
 /***************Link Github**********/
 a:hover {
-		color: rgb(85, 26, 139);
+		color: rgb(51, 51, 255);
 		text-decoration: none;
 		-webkit-tap-highlight-color: transparent;
 	}
