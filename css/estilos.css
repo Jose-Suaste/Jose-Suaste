@@ -43,6 +43,10 @@ nav a:hover{
 	color: #FF0055;
 	text-decoration: none;
 }
+.twitter{
+	color:#000000;
+	text-decoration: none;
+}
 /*Posicionamiento y estilos de las cajas de Coder y Designer*/
 section{
 margin: 0px;

@@ -1,2 +1,1 @@
-![Jose-Suaste](http://imgur.com/BCUJXOw.jpg)
-
+![Jose-Suaste](http://imgur.com/EAK83Eq.png)
